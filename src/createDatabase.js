@@ -7,8 +7,6 @@ const data = require('./data')
 require("dotenv").config(); 
 
 // Connecting to the MongoDB database
-// const DATABASE_URL = "mongodb://localhost/subscribers";
-
 const DATABASE_URL = process.env.DATABASE_URI;
 
 mongoose.connect(DATABASE_URL, { useNewUrlParser: true, useUnifiedTopology: true });

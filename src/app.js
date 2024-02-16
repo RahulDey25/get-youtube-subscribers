@@ -4,7 +4,9 @@ const path = require("path");
 const Subscriber = require('./models/subscribers');
 const {cwd} = require('process');
 
+//Configuring env file
 require("dotenv").config(); 
+
 // Importing the mongoose module
 const mongoose = require('mongoose');
 const app = express();
@@ -13,7 +15,6 @@ const app = express();
 // const port = 3000;
 const port = process.env.PORT || 3000;
 
-//Configuring env file
 
 // Middleware to parse JSON bodies and URL-encoded bodies
 app.use(express.json())
@@ -36,18 +37,6 @@ db.on('error', (err) => console.log(err));
 
 // Event listener for successful database connection
 db.once('open', () => console.log('connected to database'))
-
-// Creating an instance of the express application
-
-// Your code goes here
-// Serve static files from the "public" directory
-// app.use(express.static("public"));
-
-
-// Route to serve the "index.html" file
-// app.get("/", (req, res) => {
-//     res.sendFile(path.join(__dirname, "/index.html"));
-// });
 
 
 // Route to get all subscribers
