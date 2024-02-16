@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Youtube Subscribers</title>
+    <link rel="icon" href="/favicon.ico.png" type="image/x-icon">
+
+    <style>
+        body {
+            background-color: #ffcc66;
+            /* Change background color to a warm yellow */
+            display: flex;
+        }
+
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 30px 0px 50px 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #4d94ff;
+            /* Change background color to a vibrant blue */
+            border-radius: 12px;
+            color: #ffffff;
+            width: 80vw;
+            animation: fade-in 1s ease-in-out;
+            /* Apply the fade-in animation */
+        }
+
+        @keyframes fade-in {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 250%;
+            color: #ffffff;
+            margin-bottom: 48px;
+            text-shadow: 2px 2px 4px #000000;
+            /* Add a subtle text shadow */
+        }
+
+        b {
+            color: #ff6666;
+            /* Change color to a bright red */
+            font-style: italic;
+            /* Make the text italic */
+        }
+
+        ol {
+            padding: 1% 0 0 10%;
+        }
+
+        h3 {
+            text-align: center;
+            color: #ffffff;
+        }
+
+        em {
+            color: #ff9933;
+            /* Change color to a vibrant orange */
+            background-color: #ffff66;
+            /* Change background color to a soft yellow */
+            padding: 0.2em 0.5em;
+            /* Add padding for a more prominent appearance */
+            border-radius: 5px;
+            /* Add rounded corners for a modern look */
+            border: 2px solid #ff9933;
+            /* Add a border for emphasis */
+        }
+
+        hr {
+            width: 85%;
+            color: #ff9933;
+            /* Change color to a vibrant orange */
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-div">
+            <h1>GET <b>YOUTUBE</b> SUBSCRIBERS</h1>
+        </div>
+        <hr />
+        <div>
+            <h3>This application's APIs adhere to the following standards:</h3>
+
+            <ol>
+                <li>
+                    <p>
+                        <strong>GET </strong><b><em>/subscribers</em></b>: Response with an array of subscribers(an
+                        Object).
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <strong>GET </strong><b><em>/subscribers/names</em></b>: Response with an array of
+                        subscribers(an Object with only two fields name and subscribedChannel).
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <strong>GET </strong><b><em>/subscribers/:id</em></b>: Response with a subscriber*(an object)*
+                        with given id. Response with status code 400 and Error message({message: error.message}) if id
+                        does not match
+                    </p>
+                </li>
+            </ol>
+        </div>
+    </div>
+</body>
+
+</html>

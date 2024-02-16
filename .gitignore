@@ -1,0 +1,13 @@
+# dependencies
+/node_modules
+
+# testing
+/coverage
+/mochawesome-report
+
+
+# misc
+.env
+.nyc_output
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
