@@ -110,7 +110,7 @@ If you need any help or have ideas, don't hesitate to contact me at[Gmail](https
 ## Happy Learning
 
 <p align="center">
-<a href="https://github.com/RahulDey25/get-youtube-subscribers" title=" Backend Project: Get Youtube Subscribers">
+<a href="https://github.com/RahulDey25/get-youtube-subscribers">
 <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
     
 </a>
