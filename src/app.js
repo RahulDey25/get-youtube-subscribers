@@ -22,11 +22,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(cwd(),'public')));
 
 
-// Connect to the MongoDB database
-// const DATABASE_URL = "mongodb://127.0.0.1:27017/subscribers";
-
+// Get the database URL from the environment variables
 const DATABASE_URL = process.env.DATABASE_URI;
 
+// Connect to the MongoDB database using Mongoose
 mongoose.connect(DATABASE_URL, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Get the default connection
