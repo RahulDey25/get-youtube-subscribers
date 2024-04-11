@@ -3,7 +3,7 @@
 
 
 <h2 align="center">
-<a href = "https://get-youtube-subscribers-eznt1ftwf-rahul-deys-projects.vercel.app" target="_blank">Preview</a>
+<a href = "https://get-youtube-subscribers-beige.vercel.app/" target="_blank">Preview</a>
 </h2>
 
 
